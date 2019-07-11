@@ -14,7 +14,7 @@ app.post("/api/fuckoff", bodyParser, async (req, res) => {
       .then(data => {
         let response = data.data;
         response.unshift(
-          "send the operation you wanna do as params into the body like /foo/:bar etc..."
+          "send the operation you wanna do as params into the body like {params: /foo/:bar etc...}"
         );
         return response;
       })
