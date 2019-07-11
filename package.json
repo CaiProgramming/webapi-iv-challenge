@@ -1,0 +1,24 @@
+{
+  "name": "webapi-iv-challenge",
+  "version": "1.0.0",
+  "description": "In this challenge, you will **deploy** an API of your choosing to `heroku`.",
+  "main": "index.js",
+  "dependencies": {
+    "heroku": "^7.26.2",
+    "node": "^12.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaiProgramming/webapi-iv-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaiProgramming/webapi-iv-challenge/issues"
+  },
+  "homepage": "https://github.com/CaiProgramming/webapi-iv-challenge#readme"
+}
